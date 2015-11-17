@@ -10,8 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var usernameTF: UITextField!
+    var defaults : NSUserDefaults!
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        defaults = NSUserDefaults.standardUserDefaults()
+        let username = defaults.valueForKey("username")
+        if(username != nil)
+        {
+            usernameTF.text = username as! String
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,7 +30,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass thlected object to the new view controller.
+        Singleton.username = self.usernameTF.text!
+        defaults.setValue(self.usernameTF.text, forKey: "username")
+        defaults.synchronize()
+        let username = defaults.valueForKey("username")
+        print("Username: \(username)")
+    }
 }
 

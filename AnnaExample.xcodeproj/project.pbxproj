@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B865B9A61BFB71FD000CBCB4 /* TableViewExampleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865B9A51BFB71FD000CBCB4 /* TableViewExampleTVC.swift */; };
 		B8C17D491BE900E3005A4D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D481BE900E3005A4D80 /* AppDelegate.swift */; };
 		B8C17D4B1BE900E3005A4D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D4A1BE900E3005A4D80 /* ViewController.swift */; };
 		B8C17D4E1BE900E3005A4D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C17D4C1BE900E3005A4D80 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		B8C17D531BE900E3005A4D80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C17D511BE900E3005A4D80 /* LaunchScreen.storyboard */; };
 		B8C17D5E1BE900E3005A4D80 /* AnnaExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D5D1BE900E3005A4D80 /* AnnaExampleTests.swift */; };
 		B8C17D691BE900E3005A4D80 /* AnnaExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D681BE900E3005A4D80 /* AnnaExampleUITests.swift */; };
+		B8C17D771BE901E8005A4D80 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D761BE901E8005A4D80 /* VC2.swift */; };
+		B8C17D791BE90332005A4D80 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D781BE90332005A4D80 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B865B9A51BFB71FD000CBCB4 /* TableViewExampleTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleTVC.swift; sourceTree = "<group>"; };
 		B8C17D451BE900E3005A4D80 /* AnnaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C17D481BE900E3005A4D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C17D4A1BE900E3005A4D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		B8C17D641BE900E3005A4D80 /* AnnaExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnnaExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C17D681BE900E3005A4D80 /* AnnaExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnaExampleUITests.swift; sourceTree = "<group>"; };
 		B8C17D6A1BE900E3005A4D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C17D761BE901E8005A4D80 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		B8C17D781BE90332005A4D80 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				B8C17D481BE900E3005A4D80 /* AppDelegate.swift */,
 				B8C17D4A1BE900E3005A4D80 /* ViewController.swift */,
+				B865B9A51BFB71FD000CBCB4 /* TableViewExampleTVC.swift */,
+				B8C17D761BE901E8005A4D80 /* VC2.swift */,
 				B8C17D4C1BE900E3005A4D80 /* Main.storyboard */,
 				B8C17D4F1BE900E3005A4D80 /* Assets.xcassets */,
 				B8C17D511BE900E3005A4D80 /* LaunchScreen.storyboard */,
 				B8C17D541BE900E3005A4D80 /* Info.plist */,
+				B8C17D781BE90332005A4D80 /* Singleton.swift */,
 			);
 			path = AnnaExample;
 			sourceTree = "<group>";
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B865B9A61BFB71FD000CBCB4 /* TableViewExampleTVC.swift in Sources */,
+				B8C17D771BE901E8005A4D80 /* VC2.swift in Sources */,
+				B8C17D791BE90332005A4D80 /* Singleton.swift in Sources */,
 				B8C17D4B1BE900E3005A4D80 /* ViewController.swift in Sources */,
 				B8C17D491BE900E3005A4D80 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +494,7 @@
 				B8C17D6F1BE900E3005A4D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C17D701BE900E3005A4D80 /* Build configuration list for PBXNativeTarget "AnnaExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				B8C17D721BE900E3005A4D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8C17D731BE900E3005A4D80 /* Build configuration list for PBXNativeTarget "AnnaExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				B8C17D751BE900E3005A4D80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
