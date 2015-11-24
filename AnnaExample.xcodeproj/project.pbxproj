@@ -17,6 +17,7 @@
 		B8C17D691BE900E3005A4D80 /* AnnaExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D681BE900E3005A4D80 /* AnnaExampleUITests.swift */; };
 		B8C17D771BE901E8005A4D80 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D761BE901E8005A4D80 /* VC2.swift */; };
 		B8C17D791BE90332005A4D80 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D781BE90332005A4D80 /* Singleton.swift */; };
+		B8FECA2B1C04B2A900A7490A /* SupportTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8FECA2A1C04B2A900A7490A /* SupportTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B8C17D6A1BE900E3005A4D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8C17D761BE901E8005A4D80 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 		B8C17D781BE90332005A4D80 /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		B8FECA2A1C04B2A900A7490A /* SupportTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		B8C17D471BE900E3005A4D80 /* AnnaExample */ = {
 			isa = PBXGroup;
 			children = (
+				B8FECA2A1C04B2A900A7490A /* SupportTVC.swift */,
 				B8C17D481BE900E3005A4D80 /* AppDelegate.swift */,
 				B8C17D4A1BE900E3005A4D80 /* ViewController.swift */,
 				B865B9A51BFB71FD000CBCB4 /* TableViewExampleTVC.swift */,
@@ -268,6 +271,7 @@
 				B865B9A61BFB71FD000CBCB4 /* TableViewExampleTVC.swift in Sources */,
 				B8C17D771BE901E8005A4D80 /* VC2.swift in Sources */,
 				B8C17D791BE90332005A4D80 /* Singleton.swift in Sources */,
+				B8FECA2B1C04B2A900A7490A /* SupportTVC.swift in Sources */,
 				B8C17D4B1BE900E3005A4D80 /* ViewController.swift in Sources */,
 				B8C17D491BE900E3005A4D80 /* AppDelegate.swift in Sources */,
 			);
