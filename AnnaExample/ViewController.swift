@@ -16,6 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        
+        for(var i = 0; i < 10; i++)
+        {
+            Singleton.createPerson("Person \(i)", lname: "Litman", age: 13)
+        }
+        
         defaults = NSUserDefaults.standardUserDefaults()
         let username = defaults.valueForKey("username")
         if(username != nil)
