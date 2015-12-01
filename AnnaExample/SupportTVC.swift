@@ -40,10 +40,12 @@ class SupportTVC: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! CustomCell
 
         // Configure the cell...
-        cell.textLabel?.text = "Blah"
+        cell.aLabel.text = "A"
+        cell.bLAbel.text = "B"
+        cell.cLabel.text = "C"
         return cell
     }
     

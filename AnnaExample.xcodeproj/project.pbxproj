@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B865B9A61BFB71FD000CBCB4 /* TableViewExampleTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B865B9A51BFB71FD000CBCB4 /* TableViewExampleTVC.swift */; };
+		B88713481C0DE5B7002783A4 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88713471C0DE5B7002783A4 /* CustomCell.swift */; };
 		B8C17D491BE900E3005A4D80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D481BE900E3005A4D80 /* AppDelegate.swift */; };
 		B8C17D4B1BE900E3005A4D80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C17D4A1BE900E3005A4D80 /* ViewController.swift */; };
 		B8C17D4E1BE900E3005A4D80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8C17D4C1BE900E3005A4D80 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		B865B9A51BFB71FD000CBCB4 /* TableViewExampleTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleTVC.swift; sourceTree = "<group>"; };
+		B88713471C0DE5B7002783A4 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		B8C17D451BE900E3005A4D80 /* AnnaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C17D481BE900E3005A4D80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8C17D4A1BE900E3005A4D80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		B8C17D471BE900E3005A4D80 /* AnnaExample */ = {
 			isa = PBXGroup;
 			children = (
+				B88713471C0DE5B7002783A4 /* CustomCell.swift */,
 				B8FECA2A1C04B2A900A7490A /* SupportTVC.swift */,
 				B8C17D481BE900E3005A4D80 /* AppDelegate.swift */,
 				B8C17D4A1BE900E3005A4D80 /* ViewController.swift */,
@@ -273,6 +276,7 @@
 				B8C17D791BE90332005A4D80 /* Singleton.swift in Sources */,
 				B8FECA2B1C04B2A900A7490A /* SupportTVC.swift in Sources */,
 				B8C17D4B1BE900E3005A4D80 /* ViewController.swift in Sources */,
+				B88713481C0DE5B7002783A4 /* CustomCell.swift in Sources */,
 				B8C17D491BE900E3005A4D80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
